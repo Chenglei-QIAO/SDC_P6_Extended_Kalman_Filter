@@ -27,21 +27,21 @@ In the simulation, my EKF produces the following results:
 
 + Test with Dataset 1
 
-      Param | RMSE
-      :---: | :---:
-      px    |0.0973
-      py    |0.0855
-      vx    |0.4513
-      vy    |0.4399
+  Param |  RMSE
+  :---: | :----:
+  px    | 0.0973
+  py    | 0.0855
+  vx    | 0.4513
+  vy    | 0.4399
 
 + Test with Dataset 2
 
-      Param | RMSE
-      :---: | :---:
-      px    |0.0726
-      py    |0.0965
-      vx    |0.4216
-      vy    |0.4932
+  Param |  RMSE
+  :---: | :----:
+  px    | 0.0726
+  py    | 0.0965
+  vx    | 0.4216
+  vy    | 0.4932
 
 We can see that for both tests, `px,py,vx,vy` output coordinates have an `RMSE < [.11, .11, 0.52, 0.52]`, which turns out that my EKF works well.
 
